@@ -34,7 +34,7 @@ class RSSFeedLoader(BaseLoader):
         except ImportError:
             raise ImportError(
                 """RSSFeedLoader file requires extra dependencies.
-                Install with `pip install feedparser==6.0.10 newspaper3k==0.2.8 listparser==0.19`"""
+                Install with `pip install feedparser==6.0.10 newspaper4k==0.9.3.1 lxml_html_clean==0.4.1 listparser==0.19`"""
             ) from None
 
         output = []

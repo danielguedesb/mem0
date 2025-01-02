@@ -18,7 +18,8 @@ image = Image.debian_slim().pip_install(
     "yt_dlp==2023.11.14",
     "PyGithub==1.59.1",
     "feedparser==6.0.10",
-    "newspaper3k==0.2.8",
+    "newspaper4k==0.9.3.1",
+    "lxml_html_clean==0.4.1",
     "listparser==0.19",
 )
 

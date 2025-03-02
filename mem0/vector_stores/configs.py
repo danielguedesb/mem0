@@ -17,6 +17,8 @@ class VectorStoreConfig(BaseModel):
         "milvus": "MilvusDBConfig",
         "azure_ai_search": "AzureAISearchConfig",
         "redis": "RedisDBConfig",
+        "elasticsearch": "ElasticsearchConfig",
+        "opensearch": "OpenSearchConfig",
     }
 
     @model_validator(mode="after")
